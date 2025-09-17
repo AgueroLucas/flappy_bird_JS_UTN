@@ -21,7 +21,7 @@ resize(); // initial call
 // general settings
 let gamePlaying = false;
 const gravity = 0.5;
-const speed = 6.2;
+const speed = 4.2;
 const size = [51, 36];
 const jump = -11.5;
 const cTenth = originalWidth / 10;
