@@ -121,3 +121,11 @@ const render = () => {
 
 setup();
 img.onload = render;
+
+
+window.addEventListener('load', () => {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth' // opcional, si quieres que sea animado
+  });
+});
